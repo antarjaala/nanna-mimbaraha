@@ -114,6 +114,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
 }
+
 @media (min-width: 1200px) {
   h1, .h1 {
     font-size: 2.5rem;
@@ -11227,8 +11228,8 @@ header.masthead .site-heading .h1 {
   margin-bottom: 0.625rem;
 }
 .post-preview > .post-meta {
-  font-size: 1.125rem;
-  font-style: italic;
+  font-size: 0.9rem;
+  /* font-style: italic; */
   margin-top: 0;
   color: #6c757d;
 }
@@ -11239,9 +11240,4 @@ header.masthead .site-heading .h1 {
   .post-preview > a > .post-title {
     font-size: 2.25rem;
   }
-}
-
-.img-fluid{
-  width: 100%;
-  height: auto;
 }
